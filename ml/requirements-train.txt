@@ -1,0 +1,4 @@
+# Training environment (ml\.venv). Install PyTorch FIRST, with CUDA, using the command from
+# https://pytorch.org/get-started/locally  (tested: torch 2.15.0+cu132 on Windows, Python 3.13, GTX 1660 Ti)
+# then:  pip install -r ml/requirements-train.txt
+ultralytics==8.4.202
